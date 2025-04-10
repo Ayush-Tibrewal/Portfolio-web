@@ -2,6 +2,7 @@ import memojiImage from "@/assets/images/memoji-computer.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 
+
 export const HeroSection = () => {
   return <div className="py-32 md:py-48 lg:py-60">
     <div className="container">

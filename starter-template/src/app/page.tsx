@@ -9,7 +9,6 @@ import { LampDemo } from "@/sections/random2";
 export default function Home() {
   return (
     <div>
-      <LampDemo/>
       <BackgroundLines>
         {/* Add appropriate children content here */}
         <div>  
