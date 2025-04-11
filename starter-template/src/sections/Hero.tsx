@@ -14,6 +14,7 @@ export const HeroSection = () => {
         <div className="absolute inset-0 -z-30 opacity-5" style={{
           backgroundImage: `url(${grainImage.src})`
         }}></div>
+
         <div className="size-[620px] hero-ring"></div>
         <div className="size-[820px] hero-ring"></div>
         <div className="size-[1020px] hero-ring"></div>

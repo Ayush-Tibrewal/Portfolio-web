@@ -3,6 +3,8 @@ import { BackgroundLines}  from "@/sections/random";
 import { HeroSection } from "@/sections/Hero";
 import { LampDemo } from "@/sections/random2";
 import {TypewriterEffect} from "@/sections/random3";
+import {BackgroundBeams} from "@/sections/randomxyz";
+// import{ShootingStars} from "@/sections/randomxyz";
 
 
 
@@ -10,12 +12,14 @@ import {TypewriterEffect} from "@/sections/random3";
 export default function Home() {
   return (
     <div>
-      <BackgroundLines>
+      {/* <ShootingStars/> */}
+      <BackgroundBeams/>
+      {/* <BackgroundLines> */}
         <div>  
         <Header/>
         <HeroSection/>
         </div>
-      </BackgroundLines>
+      {/* </BackgroundLines> */}
       
       <div>
       <TypewriterEffect

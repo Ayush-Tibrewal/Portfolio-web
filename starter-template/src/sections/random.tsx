@@ -90,6 +90,34 @@ const SVG = ({
     "#6A286F",
     "#604483",
   ];
+// const colors = [
+//     "#ffffff", // pure white
+//     "#f2f2f2", // very light grey
+//     "#e6e6e6", // light grey
+//     "#d9d9d9", // soft grey
+//     "#cccccc", // muted grey
+//     "#bfbfbf", // medium-light grey
+//     "#b3b3b3", // subtle grey
+//     "#a6a6a6", // cool light grey
+//     "#999999", // balanced grey
+//     "#8c8c8c", // slightly deeper grey
+//     "#e0e0e0", // pastel grey
+//     "#ededed", // mist white
+//     "#d3d3d3", // light steel grey
+//     "#fafafa", // off-white
+//     "#f5f5f5", // snow white
+//     "#ebebeb", // cloudy grey
+//     "#e8e8e8", // ivory grey
+//     "#dcdcdc", // gainsboro
+//     "#c0c0c0", // silver
+//     "#aaaaaa", // grey tint
+//     "#999999", // soft ash
+//   ];
+//   const colors = Array(21).fill("#ffffff"); // pure white repeated 21 times
+
+
+  
+
   return (
     <motion.svg
       viewBox="0 0 1440 900"
