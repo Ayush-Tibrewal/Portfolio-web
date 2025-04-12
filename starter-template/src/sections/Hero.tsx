@@ -5,6 +5,7 @@ import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg"
 import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from "@/assets/icons/sparkle.svg"
+import {ButtonResume} from "@/components/buttonresume";
 
 
 export const HeroSection = () => {
@@ -76,11 +77,8 @@ export const HeroSection = () => {
         <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
           <span className="font-semibold">Explore My Work</span>
           <ArrowDown className="size-4"/>
-        </button>
-        <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
-          <span> ⚙️ </span>
-          <span className="font-semibold"> See my work</span>
-        </button>
+          </button>
+     <ButtonResume likhna="My Resume" />
         </div>
       </div>
       </div> )

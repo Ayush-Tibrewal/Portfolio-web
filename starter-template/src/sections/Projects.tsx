@@ -5,6 +5,7 @@ import Image from 'next/image';
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
 import grainImage from "@/assets/images/grain.jpg"
+import { HoverBorderGradient } from "@/components/moreprojectbutton";
 
 
 const portfolioProjects = [
@@ -57,7 +58,7 @@ export const ProjectsSection = () => {
       <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">See how I transformed....</p>
       <div className="mt-10 md:mt-20 flex flex-col gap-20 lg:grid lg:grid-cols-2">
         {portfolioProjects.map(project=> (
-          <div key={project.title} className="bg-gray-800 rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 after:pointer-events-none">
+          <div key={project.title} className="bg-warm-gray-50 rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 after:pointer-events-none">
           <div className="asolute inset-0 -z-10 opacity-5"
           style={{
             backgroundImage: `url(${grainImage.src})`,
@@ -96,6 +97,17 @@ export const ProjectsSection = () => {
         ))}
       </div>
     </div>
+    <div className="m-10 flex justify-center text-center">
+      <HoverBorderGradient
+        containerClassName="rounded-full"
+        as="button"
+        className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+      >
+        <span>Want to Explore more Projects</span>
+      </HoverBorderGradient>
+    </div>
+
   </section>
+
   );
 };
