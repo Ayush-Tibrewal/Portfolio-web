@@ -66,8 +66,8 @@ export const HeroSection = () => {
       <div className="max-w-lg mx-auto">
         <h1 className="font-serif text-3xl md:text-5xl text-center font-bold mt-8 tracking-wide
          ">
-          Ayush Tibrewal's Portfolio
-        </h1>
+        Ayush Tibrewal&apos;s Portfolio
+    </h1>
         <p className="mt-4 text-center text-white/60 md:text-lg">
         Hii I an an undergrad at DTU , passionate about building intelligent systems ith a strong interest in full-stack development, AI/ML, deep learning, and computer vision.
         </p>

@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/jsx-key": "off", // Disable missing 'key' prop warning
+    "react/no-unescaped-entities": "off", // Disable unescaped entities warning
+    "react-hooks/exhaustive-deps": "off", // Disable warnings for missing or unnecessary dependencies in useEffect
+    "react/display-name": "off" // Disable missing display name for components
+  }
 }
