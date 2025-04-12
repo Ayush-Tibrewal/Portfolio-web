@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter  , Calistoga} from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge"; // or 'tailwind-merge' if you're using that
-
+// import SparklingBackground from "@/components/spark-background";
 
 const inter = Inter({ subsets: ["latin"] , variable: "--font-sans" });
 const calistoga = Calistoga({
