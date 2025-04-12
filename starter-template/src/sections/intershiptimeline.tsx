@@ -1,26 +1,31 @@
 import Image from "next/image"
 import { Timeline } from "@/components/timeline"
+import expImg1 from "@/assets/images/techmahindra.jpg"
+import expImg2 from "@/assets/images/techmahindra2.jpg"
+import expImg3 from "@/assets/images/techmahindra3.jpg"
+import igImg1 from "@/assets/images/igexp1.jpg"
+import igImg2 from "@/assets/images/igexp2.jpg"
 
 export default function InternshipTimeline() {
   const data = [
     {
-      title: "Summer 2024",
+      title: "Dec 2024 - Feb 2025",
       content: (
         <div  id="exp">
           <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
-            <span className="font-bold text-purple-400">Machine Learning Engineer Intern at TechInnovate</span> 
-            Developed and deployed computer vision models for real-time object detection with 94% accuracy.
+            <span className="font-bold text-purple-400">Software Developer Intern at Tech Mahindra</span> -
+            Built backend for multi-agent network systems to automate issue detection & resolution.
           </p>
           <div className="flex space-x-3 mb-3">
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={`${expImg2.src}`}
               alt="Computer vision project"
               width={500}
               height={500}
               className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={`${expImg3.src}`}
               alt="ML model architecture"
               width={500}
               height={500}
@@ -29,33 +34,42 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Implemented YOLOv8 for real-time object detection
+              ✅ Designed 2 multi-agent systems for automated ticketing & user communication
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Optimized model for edge devices, reducing inference time by 40%
+              ✅ Developed backend to detect network issues and verify reports
+            </div>
+            <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
+              ✅  Tech stack: PostgreSQL, Prisma, Next.js, JWT, LangGraph, GroqAPI
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Spring 2024",
+      title: "Oct-2023 - Mar 2024",
       content: (
         <div>
           <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
-            <span className="font-bold text-blue-400">Full Stack Developer Intern at DataSphere</span> - Built and
-            deployed a responsive web application for data visualization using React and Node.js.
+            <span className="font-bold text-blue-400">Machine Learning Intern at Samsung Innovation Lab</span> - Developed DL architectures for EEG-based stress classification achieving 98.73% accuracy.
           </p>
           <div className="flex space-x-3 mb-3">
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={`${""}`}
               alt="Web application dashboard"
+              width={700}
+              height={700}
+              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+            />
+            <Image
+              src={`${""}`}
+              alt="Data visualization charts"
               width={500}
               height={500}
               className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={`${""}`}
               alt="Data visualization charts"
               width={500}
               height={500}
@@ -64,33 +78,35 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Developed interactive dashboards with D3.js and Chart.js
+              ✅ Engineered 3 deep learning models (ResNet18, DenseNet, VGG16) on EEG data
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Implemented RESTful APIs with Express.js and MongoDB
+              ✅ Conducted SAM vs MAT dataset analysis for cognitive stress classification
+            </div>
+            <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
+              ✅ Achieved 98.73% accuracy using EfficientNetB0 on MAT dataset
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Fall 2023",
+      title: "Dec 2023 - Mar 2024",
       content: (
         <div>
           <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
-            <span className="font-bold text-green-400">AI Research Intern at NeuralLabs</span> - Conducted research on
-            natural language processing models for sentiment analysis in customer feedback.
+            <span className="font-bold text-green-400">Research and Development Intern at Indian Institute of Technology - Delhi</span> - Applied ML/DL on EEG data to classify cognitive load based on entropy and complexity metrics.
           </p>
           <div className="flex space-x-3 mb-3">
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={""}
               alt="NLP model architecture"
               width={500}
               height={500}
               className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={""}
               alt="Sentiment analysis results"
               width={500}
               height={500}
@@ -99,33 +115,35 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Fine-tuned BERT models for domain-specific sentiment analysis
+              ✅ Preprocessed EEG signals and conducted a literature review on entropy, fractal & complexity features
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Achieved 92% accuracy on sentiment classification tasks
+              ✅ Extracted features to identify optimal EEG channels for detecting irregularities in brain activity
+            </div>
+            <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
+              ✅ Applied ML and DL algorithms to classify cognitive load from EEG data
             </div>
           </div>
         </div>
       ),
     },
     {
-      title: "Summer 2023",
+      title: "Aug 2023 - Sept 2023",
       content: (
         <div>
           <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
-            <span className="font-bold text-amber-400">Software Engineering Intern at CloudTech</span> - Developed
-            microservices architecture for a cloud-based application serving over 10,000 users.
+            <span className="font-bold text-amber-400">Research Intern at IGDTUW</span> -  Built deep learning models to classify strokes from CT scans.
           </p>
           <div className="flex space-x-3 mb-3">
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={`${igImg2.src}`}
               alt="Microservices architecture"
               width={500}
               height={500}
               className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
-              src="/placeholder.svg?height=500&width=500"
+              src={`${igImg1.src}`}
               alt="Cloud deployment"
               width={500}
               height={500}
@@ -134,45 +152,13 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Designed and implemented RESTful APIs with Spring Boot
+              ✅  Utilized CNNs to classify stroke vs non-stroke from CT brain images.
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Containerized applications with Docker and orchestrated with Kubernetes
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "Spring 2023",
-      content: (
-        <div>
-          <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
-            <span className="font-bold text-rose-400">Mobile App Development Intern at AppWorks</span> - Developed
-            cross-platform mobile applications using React Native and Firebase.
-          </p>
-          <div className="flex space-x-3 mb-3">
-            <Image
-              src="/placeholder.svg?height=500&width=500"
-              alt="Mobile app UI"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
-            />
-            <Image
-              src="/placeholder.svg?height=500&width=500"
-              alt="App features showcase"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
-            />
-          </div>
-          <div className="mt-2">
-            <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Built responsive UI components with React Native
+              ✅ Cropped 2000+ CT scans using OpenCV to isolate regions of interest.
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Implemented real-time data synchronization with Firebase
+              ✅  Achieved 98.7% accuracy using EfficientNetB0 model.
             </div>
           </div>
         </div>
