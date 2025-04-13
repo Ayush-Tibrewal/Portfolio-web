@@ -1,15 +1,17 @@
 "use client"
 
 import { useState } from "react"
-import { Copy, ExternalLink, Mail, MessageSquare, Github, Linkedin, Twitter, Code, Check } from "lucide-react"
+import { Copy, ExternalLink, Mail, MessageSquare, Github, Linkedin, Twitter, Code, Check , Notebook} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { toast } from "@/components/ui/use-toast"
+
+
 
 
 export default function ContactSection() {
   const [copied, setCopied] = useState(false)
   const email = "ayushtibrewal2004@gmail.com"
-  const whatsappNumber = "7357353100" 
+  const whatsappNumber = "7357353100"
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text)
@@ -25,14 +27,18 @@ export default function ContactSection() {
   }
 
   const socialLinks = [
-    { name: "LinkedIn", url: "https://linkedin.com/in/yourusername", icon: <Linkedin className="h-5 w-5" /> },
-    { name: "Github", url: "https://github.com/yourusername", icon: <Github className="h-5 w-5" /> },
-    { name: "Twitter", url: "https://twitter.com/yourusername", icon: <Twitter className="h-5 w-5" /> },
-    { name: "LeetCode", url: "https://leetcode.com/yourusername", icon: <Code className="h-5 w-5" /> },
-  ]
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/ayush-tibrewal-665949248/", icon: <Linkedin className="h-5 w-5" /> },
+    { name: "Github", url: "https://github.com/Ayush-Tibrewal", icon: <Github className="h-5 w-5" /> },
+    {
+      name: "GScholar",
+      url: "https://scholar.google.com/citations?user=PP-r87QAAAAJ&hl=en&authuser=1",
+      icon: <Notebook className="h-5 w-5" />,
+    },
+    { name: "LeetCode", url: "https://leetcode.com/chromo4", icon: <Code className="h-5 w-5" /> },
+  ];
 
   return (
-    <div id="contact"className="w-full bg-black text-white mb-28 py-16 px-4 ">
+    <div id="contact" className="w-full bg-black text-white mb-28 py-16 px-4 ">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold mb-10 text-center">Contact Me</h2>
 
