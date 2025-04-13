@@ -26,12 +26,15 @@ const iconSlugs = [
   // Backend
   "nodedotjs",
   "express",
-  "nestjs",
+  "zod",
+  "jsonwebtoken",
+  
   // Databases
   "mongodb",
   "postgresql",
   "mysql",
   "prisma",
+  "firebase",
   // Tools & Others
   "git",
   "github",
@@ -42,7 +45,8 @@ const iconSlugs = [
   "vscode",
   "tailwind",
   "tensorflow",
-  "Mongodb",
+  "opencv",
+
 
 
 ];
