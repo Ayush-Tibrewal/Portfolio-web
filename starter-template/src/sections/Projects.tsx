@@ -113,10 +113,10 @@ export const ProjectsSection = () => {
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
-        className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+        className="dark:bg-white bg-white  text-gray-950  dark:text-white font-semibold  flex items-center space-x-2"
         href="/project"
       >
-        <span> Want to Explore more Projects </span>
+        <span> More Projects </span>
       </HoverBorderGradient>
     </div>
 

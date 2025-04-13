@@ -5,6 +5,7 @@ import Image from 'next/image';
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
 import grainImage from "@/assets/images/grain.jpg"
+import { Footer } from '@/sections/Footer';
 
 
 const portfolioProjects = [
@@ -96,6 +97,7 @@ const portfolioProjects = [
 
 export const ProjectsSection2 = () => {
     return (
+        <>
         <section id="project" className="pb-16 lg:py-24">
             <div className="container">
                 <div className="flex justify-center">
@@ -145,6 +147,7 @@ export const ProjectsSection2 = () => {
                 </div>
             </div>
         </section>
-
+    <Footer/>
+    </>
     );
 };
