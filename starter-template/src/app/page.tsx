@@ -10,12 +10,48 @@ import InternshipTimeline from "@/sections/intershiptimeline";
 import ResearchCard from "@/sections/research";
 import {Footer} from '@/sections/Footer';
 import { Cover } from "@/sections/wrapsp";
+import IconCloud from "@/components/magicui/icon-cloud";
+import { MotionSection, MotionDiv } from "@/components/motion";
+
+const iconSlugs = [
+  // Frontend
+  "html5",
+  "css3",
+  "javascript",
+  "typescript",
+  "react",
+  "nextdotjs",
+  "tailwindcss",
+  // Backend
+  "nodedotjs",
+  "express",
+  "nestjs",
+  // Databases
+  "mongodb",
+  "postgresql",
+  "mysql",
+  "prisma",
+  // Tools & Others
+  "git",
+  "github",
+  "postman",
+  "docker",
+  "linux",
+  "vercel",
+  "vscode",
+  "tailwind",
+  "tensorflow",
+  "Mongodb",
+  
+  
+];
 
 
 
 
 export default function Home() {
   return (
+    
     <div>
       {/* <ShootingStars/> */}
       <BackgroundBeams/>
@@ -50,6 +86,18 @@ export default function Home() {
         Build amazing websites <br /> at <Cover>Click Me</Cover>
       </h1>
     </div>
+
+    <div className="flex justify-center items-center p-20 overflow-hidden w-full h-full">
+  <MotionDiv
+    initial={{ opacity: 0, x: 20 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.8, delay: 0.2 }}
+    className="w-full md:w-1/2"
+  >
+    <IconCloud iconSlugs={iconSlugs} />
+  </MotionDiv>
+</div>
+
 
 
       <ResearchCard/>
