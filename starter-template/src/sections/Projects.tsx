@@ -45,11 +45,23 @@ const portfolioProjects = [
     link: "https://youtu.be/Z7I5uSRHMHg",
     image: aiStartupLandingPage,
   },
+  {
+    company: "Quantum Dynamics",
+    year: "2023",
+    title: "AI Startup Landing Page",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://youtu.be/Z7I5uSRHMHg",
+    image: aiStartupLandingPage,
+  },
 ];
 
 export const ProjectsSection = () => {
   return (
-  <section className="pb-16 lg:py-24">
+  <section  id ="project" className="pb-16 lg:py-24">
     <div className="container">
       <div className="flex justify-center">
         <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center mt-10">Real-world Results</p>
@@ -102,8 +114,9 @@ export const ProjectsSection = () => {
         containerClassName="rounded-full"
         as="button"
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+        href="/project"
       >
-        <span>Want to Explore more Projects</span>
+        <span> Want to Explore more Projects </span>
       </HoverBorderGradient>
     </div>
 

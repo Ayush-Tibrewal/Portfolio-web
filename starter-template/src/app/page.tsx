@@ -1,7 +1,6 @@
 import { Header } from "@/sections/Header";
 import { BackgroundLines}  from "@/sections/random"; 
 import { HeroSection } from "@/sections/Hero";
-import { LampDemo } from "@/sections/random2";
 import {TypewriterEffect} from "@/sections/random3";
 import {BackgroundBeams} from "@/sections/randomxyz";
 import { ProjectsSection } from "@/sections/Projects";
@@ -87,12 +86,12 @@ export default function Home() {
       </h1>
     </div>
 
-    <div className="flex justify-center items-center p-20 overflow-hidden w-full h-full">
+    <div className="flex justify-center items-center p-4 md:p-8 lg:p-20 overflow-hidden w-full h-half">
   <MotionDiv
     initial={{ opacity: 0, x: 20 }}
     animate={{ opacity: 1, x: 0 }}
     transition={{ duration: 0.8, delay: 0.2 }}
-    className="w-full md:w-1/2"
+    className="w-full md:w-3/4 lg:w-1/2"
   >
     <IconCloud iconSlugs={iconSlugs} />
   </MotionDiv>

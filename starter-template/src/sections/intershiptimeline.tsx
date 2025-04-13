@@ -11,7 +11,7 @@ export default function InternshipTimeline() {
     {
       title: "Dec 2024 - Feb 2025",
       content: (
-        <div  id="exp">
+        <div  id="internship">
           <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
             <span className="font-bold text-purple-400">Software Developer Intern at Tech Mahindra</span> -
             Built backend for multi-agent network systems to automate issue detection & resolution.
@@ -34,13 +34,13 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Designed 2 multi-agent systems for automated ticketing & user communication
+              - Designed 2 multi-agent systems for automated ticketing & user communication
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Developed backend to detect network issues and verify reports
+              - Developed backend to detect network issues and verify reports
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅  Tech stack: PostgreSQL, Prisma, Next.js, JWT, LangGraph, GroqAPI
+              - Tech stack: PostgreSQL, Prisma, Next.js, JWT, LangGraph, GroqAPI
             </div>
           </div>
         </div>

@@ -1,24 +1,15 @@
 //seperate route it is 
 import React from 'react';
 import { Header } from "@/sections/Header";
-import { ProjectsSection } from "@/sections/Projects";
-// import IconCloud from 
-// import IconCloud from "../components/magicui/icon-cloud";
-import IconCloud from "@/components/magicui/icon-cloud";
-import { MotionSection, MotionDiv } from "@/components/motion";
+import {ProjectsSection2} from "@/sections/project2";
 
 
 
 function Project() {
-
-
-   
-
   return (
   <div>
-
   <Header/>
- 
+  <ProjectsSection2/>
 </div>
 
   )
