@@ -11,6 +11,7 @@ import {Footer} from '@/sections/Footer';
 import { Cover } from "@/sections/wrapsp";
 import IconCloud from "@/components/magicui/icon-cloud";
 import { MotionSection, MotionDiv } from "@/components/motion";
+import ContactSection from "@/sections/Contact";
 
 const iconSlugs = [
   // Frontend
@@ -100,6 +101,7 @@ export default function Home() {
 
 
       <ResearchCard/>
+      <ContactSection/>
       <Footer/>
       
 
