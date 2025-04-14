@@ -1,5 +1,7 @@
 import { link } from "fs";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import SparklingBackground from "@/components/spark-background";
+
 
 // const footerlinks = [
 //   {
