@@ -14,6 +14,7 @@ import { MotionSection, MotionDiv } from "@/components/motion";
 import ContactSection from "@/sections/Contact";
 // import { WavyBackground } from "@/components/waves";
 
+
 const iconSlugs = [
   // Frontend
   "html5",
@@ -28,7 +29,7 @@ const iconSlugs = [
   "express",
   "zod",
   "jsonwebtoken",
-  
+
   // Databases
   "mongodb",
   "postgresql",
@@ -102,8 +103,28 @@ export default function Home() {
           <IconCloud iconSlugs={iconSlugs} />
         </MotionDiv>
       </div>
+
       <ResearchCard />
       {/* <WavyBackground /> */}
+      {/* <div className="relative h-96 overflow-hidden">
+  <WavyBackground
+    className="h-full flex flex-col items-center justify-center"
+    containerClassName="h-full"
+    backgroundFill="black"
+    waveOpacity={0.5}
+    blur={10}
+    speed="fast"
+  >
+    {/* The content you want to overlay on the waves */}
+      {/* <div className="relative z-10 text-center text-white"> */}
+      {/* <h2 className="text-3xl font-bold">Research Insights</h2>
+      <p className="mt-4 text-base">
+        Here are some fascinating research details...
+      </p>
+    </div>
+  </WavyBackground> */}
+
+
       <ContactSection />
       <Footer />
     </div>

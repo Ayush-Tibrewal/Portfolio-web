@@ -6,6 +6,7 @@ import StarIcon from "@/assets/icons/star.svg"
 import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from "@/assets/icons/sparkle.svg"
 import {ButtonResume} from "@/components/buttonresume";
+import { TypewriterEffect } from "@/sections/random3";
 
 
 export const HeroSection = () => {
@@ -64,12 +65,12 @@ export const HeroSection = () => {
 
 
       <div className="max-w-lg mx-auto">
-        <h1 className="font-serif text-3xl md:text-5xl text-center font-bold mt-8 tracking-wide
-         ">
-        Ayush Tibrewal&apos;s Portfolio
+        <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center 
+      mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b text-white"> Hii I am <div > Ayush Tibrewal</div>
+         {/* &apos;s  */}
     </h1>
         <p className="mt-4 text-center text-white/60 md:text-lg">
-        Hii I an an undergrad at DTU , passionate about building intelligent systems ith a strong interest in full-stack development, AI/ML, deep learning, and computer vision.
+         Undergrad at DTU , passionate about building intelligent systems ith a strong interest in full-stack development, AI/ML, deep learning, and computer vision.
         </p>
       </div>
 

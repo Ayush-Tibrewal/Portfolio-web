@@ -10,6 +10,7 @@ function Project() {
   <div>
   <Header/>
   <ProjectsSection2/>
+  
 </div>
 
   )

@@ -11,7 +11,7 @@ export default function InternshipTimeline() {
     {
       title: "Dec 2024 - Feb 2025",
       content: (
-        <div  id="internship">
+        <div id="internship">
           <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
             <span className="font-bold text-purple-400">Software Developer Intern at Tech Mahindra</span> -
             Built backend for multi-agent network systems to automate issue detection & resolution.
@@ -78,13 +78,13 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Engineered 3 deep learning models (ResNet18, DenseNet, VGG16) on EEG data
+              - Engineered 3 deep learning models (ResNet18, DenseNet, VGG16) on EEG data
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Conducted SAM vs MAT dataset analysis for cognitive stress classification
+              - Conducted SAM vs MAT dataset analysis for cognitive stress classification
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Achieved 98.73% accuracy using EfficientNetB0 on MAT dataset
+              - Achieved 98.73% accuracy using EfficientNetB0 on MAT dataset
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function InternshipTimeline() {
           </p>
           <div className="flex space-x-3 mb-3">
             <Image
-              src={""}
+              src={`${""}`}
               alt="NLP model architecture"
               width={500}
               height={500}
@@ -115,13 +115,13 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Preprocessed EEG signals and conducted a literature review on entropy, fractal & complexity features
+              - Preprocessed EEG signals and conducted a literature review on entropy, fractal & complexity features
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Extracted features to identify optimal EEG channels for detecting irregularities in brain activity
+              - Extracted features to identify optimal EEG channels for detecting irregularities in brain activity
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Applied ML and DL algorithms to classify cognitive load from EEG data
+              - Applied ML and DL algorithms to classify cognitive load from EEG data
             </div>
           </div>
         </div>
@@ -152,13 +152,13 @@ export default function InternshipTimeline() {
           </div>
           <div className="mt-2">
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅  Utilized CNNs to classify stroke vs non-stroke from CT brain images.
+              -  Utilized CNNs to classify stroke vs non-stroke from CT brain images.
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅ Cropped 2000+ CT scans using OpenCV to isolate regions of interest.
+              - Cropped 2000+ CT scans using OpenCV to isolate regions of interest.
             </div>
             <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
-              ✅  Achieved 98.7% accuracy using EfficientNetB0 model.
+              -  Achieved 98.7% accuracy using EfficientNetB0 model.
             </div>
           </div>
         </div>
