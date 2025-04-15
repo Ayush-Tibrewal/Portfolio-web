@@ -5,6 +5,11 @@ import expImg2 from "@/assets/images/techmahindra2.jpg"
 import expImg3 from "@/assets/images/techmahindra3.jpg"
 import igImg1 from "@/assets/images/igexp1.jpg"
 import igImg2 from "@/assets/images/igexp2.jpg"
+import iitImg1 from "@/assets/images/Iitdelhi.jpeg"
+import iitImg2 from "@/assets/images/iit2.jpg"
+import samImg2 from "@/assets/images/sam5.jpg"
+import samImg1 from "@/assets/images/samsung2.jpg"
+
 
 export default function InternshipTimeline() {
   const data = [
@@ -22,14 +27,14 @@ export default function InternshipTimeline() {
               alt="Computer vision project"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
               src={`${expImg3.src}`}
               alt="ML model architecture"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
           </div>
           <div className="mt-2">
@@ -55,25 +60,18 @@ export default function InternshipTimeline() {
           </p>
           <div className="flex space-x-3 mb-3">
             <Image
-              src={`${""}`}
+              src={`${samImg2.src}`}
               alt="Web application dashboard"
               width={700}
               height={700}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
-              src={`${""}`}
+              src={`${samImg1.src}`}
               alt="Data visualization charts"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
-            />
-            <Image
-              src={`${""}`}
-              alt="Data visualization charts"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
           </div>
           <div className="mt-2">
@@ -99,18 +97,18 @@ export default function InternshipTimeline() {
           </p>
           <div className="flex space-x-3 mb-3">
             <Image
-              src={`${""}`}
+              src={`${iitImg1.src}`}
               alt="NLP model architecture"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
-              src={""}
+              src={`${iitImg2.src}`}
               alt="Sentiment analysis results"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
           </div>
           <div className="mt-2">
@@ -140,14 +138,14 @@ export default function InternshipTimeline() {
               alt="Microservices architecture"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
             <Image
               src={`${igImg1.src}`}
               alt="Cloud deployment"
               width={500}
               height={500}
-              className="rounded-lg object-cover h-16 md:h-28 w-auto shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+              className="rounded-lg object-cover h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
             />
           </div>
           <div className="mt-2">
