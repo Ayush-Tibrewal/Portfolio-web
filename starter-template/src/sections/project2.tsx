@@ -1,6 +1,7 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import travelai from "@/assets/images/travelai1.jpg";
+import snapnotes from "@/assets/images/snapnotes.jpg";
+import evcharge from "@/assets/images/evcharge.png";
+import identitycard from "@/assets/images/identitycard.png";
 import Image from 'next/image';
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
@@ -13,90 +14,56 @@ import SparklingBackground from "@/components/spark-background";
 
 const portfolioProjects = [
     {
-        company: "Acme Corp",
-        year: "2022",
-        title: "Dark Saas Landing Page",
-        results: [
-            { title: "Enhanced user experience by 40%" },
-            { title: "Improved site speed by 50%" },
-            { title: "Increased mobile traffic by 35%" },
-        ],
-        link: "https://.be/4k7IdSLxh6w",
-        image: darkSaasLandingPage,
+      company: "Acme Corp",
+      year: "2025",
+      title: "TravelAI",
+      results: [
+        { title: "Personalized travel plans based on budget, destination & trip duration" },
+        { title: "Saved itineraries for seamless trip management" },
+        { title: "Built with React, Firebase, Tailwind CSS & OAuth 2.0" },
+      ],
+      link: "https://travel-ai-steel.vercel.app/",
+      image: travelai,
     },
     {
-        company: "Innovative Co",
-        year: "2021",
-        title: "Light Saas Landing Page",
-        results: [
-            { title: "Boosted sales by 20%" },
-            { title: "Expanded customer reach by 35%" },
-            { title: "Increased brand awareness by 15%" },
-        ],
-        link: "https://.be/7hi5zwO75yc",
-        image: lightSaasLandingPage,
+      company: "Innovative Co",
+      year: "2025",
+      title: "SnapNotes-AI",
+      results: [
+        { title: "Auto-generates notes from lengthy PDFs" },
+        { title: "AI-powered Q&A for fast, context-aware information retrieval" },
+        { title: "Highlight, summarize & interact with documents" },
+      ],
+      link: "https://devfolio.co/projects/snap-notes-0a43",
+      image: snapnotes,
     },
     {
-        company: "Quantum Dynamics",
-        year: "2023",
-        title: "AI Startup Landing Page",
-        results: [
-            { title: "Enhanced user experience by 40%" },
-            { title: "Improved site speed by 50%" },
-            { title: "Increased mobile traffic by 35%" },
-        ],
-        link: "https://.be/Z7I5uSRHMHg",
-        image: aiStartupLandingPage,
+      company: "",
+      year: "2024",
+      title: "EV Charge Finder",
+      results: [
+        { title: "Shows real-time EV station availability in 20+ cities using Google Maps API" },
+        { title: "Search, filter & track wait times for better planning" },
+        { title: "Fully responsive UI built with React, TypeScript & Tailwind CSS" },
+      ],
+      link: "https://glowing-begonia-ba4a29.netlify.app/",
+      image: evcharge,
     },
     {
-        company: "Quantum Dynamics",
-        year: "2023",
-        title: "AI Startup Landing Page",
-        results: [
-            { title: "Enhanced user experience by 40%" },
-            { title: "Improved site speed by 50%" },
-            { title: "Increased mobile traffic by 35%" },
-        ],
-        link: "https://.be/Z7I5uSRHMHg",
-        image: aiStartupLandingPage,
+      company: "Quantum Dynamics",
+      year: "2023",
+      title: "Identity Card Checker",
+      results: [
+        { title: "Detected Aadhar, PAN, Voter & DTU IDs with 95% accuracy" },
+        { title: "OCR-powered text extraction with 90%+ accuracy (Tesseract)" },
+        { title: "JSON-structured output for easy data handling" },
+        // { title: "Enhanced with Vision Transformers & LSTMs for 98% target accuracy" },
+      ],
+      link: "https://github.com/Ayush-Tibrewal/IDENTITY_CARD",
+      image: identitycard,
     },
-    {
-        company: "Quantum Dynamics",
-        year: "2023",
-        title: "AI Startup Landing Page",
-        results: [
-            { title: "Enhanced user experience by 40%" },
-            { title: "Improved site speed by 50%" },
-            { title: "Increased mobile traffic by 35%" },
-        ],
-        link: "https://.be/Z7I5uSRHMHg",
-        image: aiStartupLandingPage,
-    },
-    {
-        company: "Quantum Dynamics",
-        year: "2023",
-        title: "AI Startup Landing Page",
-        results: [
-            { title: "Enhanced user experience by 40%" },
-            { title: "Improved site speed by 50%" },
-            { title: "Increased mobile traffic by 35%" },
-        ],
-        link: "https://.be/Z7I5uSRHMHg",
-        image: aiStartupLandingPage,
-    },
-    {
-        company: "Quantum Dynamics",
-        year: "2023",
-        title: "AI Startup Landing Page",
-        results: [
-            { title: "Enhanced user experience by 40%" },
-            { title: "Improved site speed by 50%" },
-            { title: "Increased mobile traffic by 35%" },
-        ],
-        link: "https:.be/Z7I5uSRHMHg",
-        image: aiStartupLandingPage,
-    },
-];
+  ];
+
 
 export const ProjectsSection2 = () => {
     return (

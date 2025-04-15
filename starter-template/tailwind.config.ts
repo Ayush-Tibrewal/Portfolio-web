@@ -72,7 +72,20 @@ const config: Config = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+		animation: {
+			  gradient: 'gradient 5s ease infinite',
+			},
+			keyframes: {
+			  gradient: {
+				'0%, 100%': {
+				  'background-position': '0% 50%',
+				},
+				'50%': {
+				  'background-position': '100% 50%',
+				},
+			  },
+		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
