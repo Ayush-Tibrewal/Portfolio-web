@@ -13,7 +13,7 @@ export function HoverBorderGradient({
   as: Tag = "button",
   duration = 1,
   clockwise = true,
-  href, // ✅ add href prop
+  href,
   ...props
 }: React.PropsWithChildren<{
   as?: React.ElementType;
@@ -21,7 +21,7 @@ export function HoverBorderGradient({
   className?: string;
   duration?: number;
   clockwise?: boolean;
-  href?: string; // ✅ add href to prop types
+  href?: string;
 } & React.HTMLAttributes<HTMLElement>>) {
   const router = useRouter();
   const [hovered, setHovered] = useState<boolean>(false);
@@ -55,11 +55,20 @@ export function HoverBorderGradient({
     }
   }, [hovered, duration]);
 
+  const isAnchor = Tag === "a";
+
   return (
     <Tag
+      {...(isAnchor && href
+        ? {
+            href,
+            target: "_blank",
+            rel: "noopener noreferrer",
+          }
+        : {})}
       onClick={(e: React.MouseEvent) => {
-        if (href) {
-          e.preventDefault(); // ✅ prevent default if it's <a> tag
+        if (!isAnchor && href) {
+          e.preventDefault();
           router.push(href);
         }
       }}
