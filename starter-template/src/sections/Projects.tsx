@@ -25,7 +25,7 @@ const portfolioProjects = [
   {
     company: "Innovative Co",
     year: "2025",
-    title: "SnapNotes-AI",
+    title: "SnapNotes",
     results: [
       { title: "Auto-generates notes from lengthy PDFs" },
       { title: "AI-powered Q&A for fast, context-aware information retrieval" },
@@ -116,7 +116,7 @@ export const ProjectsSection = () => {
         containerClassName="rounded-full"
         as="button"
         className="dark:bg-white bg-white  text-gray-950  dark:text-white font-semibold  flex items-center space-x-2"
-        href="/project"
+        href="https://github.com/Ayush-Tibrewal"
       >
         <span> More Projects </span>
       </HoverBorderGradient>

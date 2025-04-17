@@ -76,9 +76,9 @@ export const HeroSection = () => {
       {/* </div> */}
 
       <div className="max-w-lg mx-auto">
-  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-6 py-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-300 via-gray-500 to-gray-700 animate-gradient bg-[length:200%_200%] drop-shadow-md">
-    Hi, I'm <span className="block">Ayush Tibrewal</span>
-  </h1>
+      <h1 className="text-4xl text-glow md:text-5xl lg:text-6xl font-bold text-center mt-6 py-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-stone-400 to-white animate-gradient bg-[length:200%_200%] drop-shadow-md">
+  Hi, I'm <span className="block">Ayush Tibrewal</span>
+</h1>
   <p className="mt-4 text-center text-white/70 md:text-lg">
     Undergraduate at DTU, passionate about building intelligent systems with a strong interest in full-stack development, AI/ML, deep learning, and computer vision.
   </p>
