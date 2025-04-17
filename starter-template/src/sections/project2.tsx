@@ -75,7 +75,7 @@ export const ProjectsSection2 = () => {
                 <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center mt-10">Real-world Results</p>
                 </div>
                 <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">Featured Projects</h2>
-                <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">See how I transformed....</p>
+                {/* <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">See how I transformed....</p> */}
                 <div className="mt-10 md:mt-20 flex flex-col gap-20 lg:grid lg:grid-cols-2">
                     {portfolioProjects.map(project => (
                         <div key={project.title} className="bg-warm-gray-50 rounded-3xl relative z-0 overflow-hidden after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-8 md:pt-12 md:px-10 after:pointer-events-none">
