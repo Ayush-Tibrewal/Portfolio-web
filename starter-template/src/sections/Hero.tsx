@@ -12,7 +12,7 @@ import { motion } from "framer-motion"
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-28 lg:py-40 relative z-0 overflow-x-clip">
+    <div className="py-28 md:py-40 lg:py-52 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div className="absolute inset-0 -z-30 opacity-5" style={{
           backgroundImage: `url(${grainImage.src})`
@@ -22,6 +22,7 @@ export const HeroSection = () => {
         <div className="size-[820px] hero-ring"></div>
         <div className="size-[1020px] hero-ring"></div>
         <div className="size-[1220px] hero-ring"></div>
+        <div className="size-[1420px] hero-ring"></div>
 
         {/* <HeroOrbit size={800} rotation={-72}>
           <StarIcon className="size-28 text-emerald-300"/>

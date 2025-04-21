@@ -11,9 +11,10 @@
       text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }    
 
-    .hero-ring{
-        @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-emerald-300/5 shadow-[0_0_80px_insert] shadow-emerald-300/5;
+    .hero-ring {
+      @apply absolute inset-0 border-[3px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-gray-700/25 shadow-[0_0_100px_inset] shadow-gray-700/25;
     }
+    
   :root {
 
         --background: 0 0% 100%;
@@ -130,6 +131,7 @@
     50% { opacity: 1; }
   } */
 
+
 @layer base {
   * {
     @apply border-border;
@@ -138,3 +140,4 @@
     @apply bg-background text-foreground;
     }
 }
+

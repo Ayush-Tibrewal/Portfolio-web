@@ -12,6 +12,7 @@ import { Cover } from "@/sections/wrapsp";
 import IconCloud from "@/components/magicui/icon-cloud";
 import { MotionSection, MotionDiv } from "@/components/motion";
 import ContactSection from "@/sections/Contact";
+import { ScrollReveal } from "@/components/ScrollReveal";
 // import { WavyBackground } from "@/components/waves";
 
 
@@ -66,10 +67,10 @@ export default function Home() {
     
 </div> */}
       <div>
-        <Header />
-        <div> <HeroSection />
-        </div>
-        <div></div>
+        <Header /> 
+        <ScrollReveal delay={0.1} y={20} scaleEffect={0.92}>
+          <HeroSection />
+        </ScrollReveal>
         <ProjectsSection />
         {/* <TypewriterEffect
   words={[
@@ -82,8 +83,11 @@ export default function Home() {
 
       </div>
       {/* </BackgroundLines> */}
+      <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}>
       <InternshipTimeline />
+      </ScrollReveal>
 
+      <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}>
       <div>
         <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center 
       mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b
@@ -92,7 +96,9 @@ export default function Home() {
           Turning ideas into impact with  <br /> at Every <Cover> Click</Cover>
         </h1>
       </div>
+      </ScrollReveal>
 
+      <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}>
       <div className="flex justify-center items-center p-4 md:p-8 lg:p-20 overflow-hidden w-full h-half">
         <MotionDiv
           initial={{ opacity: 0, x: 20 }}
@@ -103,8 +109,11 @@ export default function Home() {
           <IconCloud iconSlugs={iconSlugs} />
         </MotionDiv>
       </div>
+      </ScrollReveal>
 
+      <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}>
       <ResearchCard />
+      </ScrollReveal>
       {/* <WavyBackground /> */}
       {/* <div className="relative h-96 overflow-hidden">
   <WavyBackground
@@ -124,8 +133,9 @@ export default function Home() {
     </div>
   </WavyBackground> */}
 
-
+    <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}>
       <ContactSection />
+    </ScrollReveal>
       <Footer />
     </div>
   );

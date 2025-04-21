@@ -10,7 +10,6 @@ import iitImg2 from "@/assets/images/iit2.jpg"
 import samImg2 from "@/assets/images/sam5.jpg"
 import samImg1 from "@/assets/images/samsung2.jpg"
 
-
 export default function InternshipTimeline() {
   const data = [
     {
