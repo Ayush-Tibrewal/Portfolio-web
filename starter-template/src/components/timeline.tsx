@@ -2,6 +2,8 @@
 import { useScroll, useTransform, motion } from "motion/react"
 import type React from "react"
 import { useEffect, useRef, useState } from "react"
+import { ScrollReveal } from "@/components/ScrollReveal";
+
 
 interface TimelineEntry {
   title: string
@@ -31,13 +33,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   return (
     <div className="w-full bg-black dark:bg-black font-sans md:px-6" ref={containerRef}>
       <div className="max-w-7xl mx-auto py-12 px-4 md:px-6 lg:px-8">
+        <ScrollReveal delay={0.1} y={20} scaleEffect={0.92}>
         <h2 className="font-serif text-3xl md:text-5xl text-white dark:text-white text-center">My Professional Journey</h2>
-        {/* <p className="text-neutral-400 dark:text-neutral-400 text-xs md:text-sm max-w-sm">
-          A timeline of my internship experiences and professional growth.
-        </p> */}
+        </ScrollReveal>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-12">
+      <ScrollReveal delay={0.1} y={20} scaleEffect={0.92}>
+
         {data.map((item, index) => (
           <div key={index} className="flex justify-start pt-8 md:pt-24 md:gap-6">
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-24 self-start max-w-xs lg:max-w-sm md:w-full">
@@ -71,7 +74,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             className="absolute inset-x-0 top-0 w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
+        </ScrollReveal>
+
       </div>
+
     </div>
   )
 }

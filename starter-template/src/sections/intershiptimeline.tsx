@@ -9,6 +9,7 @@ import iitImg1 from "@/assets/images/Iitdelhi.jpeg"
 import iitImg2 from "@/assets/images/iit2.jpg"
 import samImg2 from "@/assets/images/sam5.jpg"
 import samImg1 from "@/assets/images/samsung2.jpg"
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 export default function InternshipTimeline() {
   const data = [

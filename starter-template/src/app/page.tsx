@@ -83,9 +83,9 @@ export default function Home() {
 
       </div>
       {/* </BackgroundLines> */}
-      <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}>
+      {/* <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}> */}
       <InternshipTimeline />
-      </ScrollReveal>
+      {/* </ScrollReveal> */}
 
       <ScrollReveal delay={0.2} y={20} scaleEffect={0.92}>
       <div>
@@ -93,7 +93,7 @@ export default function Home() {
       mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b
        from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800
         dark:via-white dark:to-white">
-          Turning ideas into impact with  <br /> at Every <Cover> Click</Cover>
+          Turning ideas into impact with  <br /> Every <Cover> Click</Cover>
         </h1>
       </div>
       </ScrollReveal>
