@@ -7,7 +7,7 @@ export function ButtonResume({likhna}:{likhna :string}) {
         type="button"
         onClick={() =>
           window.open(
-            'https://drive.google.com/file/d/1cNLgdl75ChUvwVkVwVVLC9J4URFKrp53/view?usp=sharing',
+            'https://drive.google.com/file/d/18dtWEHm_lszeh7r8yMjg-hRBYplqzm5p/view?usp=sharing',
             '_blank'
           )
         }
