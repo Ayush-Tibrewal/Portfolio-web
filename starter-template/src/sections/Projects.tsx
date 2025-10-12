@@ -8,9 +8,23 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
 import grainImage from "@/assets/images/grain.jpg"
 import { HoverBorderGradient } from "@/components/moreprojectbutton";
 import { ScrollReveal } from "@/components/ScrollReveal";
+import quickpick from "@/assets/images/quickpick.png"
 
 
 const portfolioProjects = [
+  {
+  company: "Personal Project",
+  year: "2025",
+  title: "QuickPick",
+  results: [
+    { title: "AI-powered product recommender for smart shopping" },
+    { title: "Lets users compare, search & filter items instantly" },
+    { title: "Built with React, Firebase, Tailwind CSS & OpenAI API" },
+  ],
+  link: "https://quick-pick-diq1.vercel.app/",
+  image: quickpick,
+},
+
   {
     company: "Acme Corp",
     year: "2025",
@@ -35,18 +49,18 @@ const portfolioProjects = [
     link: "https://devfolio.co/projects/snap-notes-0a43",
     image: snapnotes,
   },
-  {
-    company: "",
-    year: "2024",
-    title: "EV Charge Finder",
-    results: [
-      { title: "Shows real-time EV station availability in 20+ cities using Google Maps API" },
-      { title: "Search, filter & track wait times for better planning" },
-      { title: "Fully responsive UI built with React, TypeScript & Tailwind CSS" },
-    ],
-    link: "https://glowing-begonia-ba4a29.netlify.app/",
-    image: evcharge,
-  },
+  // {
+  //   company: "",
+  //   year: "2024",
+  //   title: "EV Charge Finder",
+  //   results: [
+  //     { title: "Shows real-time EV station availability in 20+ cities using Google Maps API" },
+  //     { title: "Search, filter & track wait times for better planning" },
+  //     { title: "Fully responsive UI built with React, TypeScript & Tailwind CSS" },
+  //   ],
+  //   link: "https://glowing-begonia-ba4a29.netlify.app/",
+  //   image: evcharge,
+  // },
   {
     company: "Quantum Dynamics",
     year: "2023",
