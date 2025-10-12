@@ -34,7 +34,7 @@ export default function ContactSection() {
       url: "https://scholar.google.com/citations?user=PP-r87QAAAAJ&hl=en&authuser=1",
       icon: <Notebook className="h-5 w-5" />,
     },
-    { name: "LeetCode", url: "https://leetcode.com/chromo4", icon: <Code className="h-5 w-5" /> },
+    { name: "LeetCode", url: "https://leetcode.com/u/Moncarnio/", icon: <Code className="h-5 w-5" /> },
   ];
 
   return (
