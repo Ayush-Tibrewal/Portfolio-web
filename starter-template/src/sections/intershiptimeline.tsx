@@ -1,6 +1,8 @@
 import Image from "next/image"
 import { Timeline } from "@/components/timeline"
 import expImg1 from "@/assets/images/techmahindra.jpg"
+import samImg3 from "@/assets/images/samImg3.jpeg"
+import samImg4 from "@/assets/images/samImg4.jpeg"
 import expImg2 from "@/assets/images/techmahindra2.jpg"
 import expImg3 from "@/assets/images/techmahindra3.jpg"
 import igImg1 from "@/assets/images/igexp1.jpg"
@@ -13,6 +15,44 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 
 export default function InternshipTimeline() {
   const data = [
+    {
+      title: "Sept 2025 - Nov 2025",
+      content: (
+        <div id="internship">
+          <p className="text-white dark:text-white text-xs md:text-sm font-normal mb-4">
+            <span className="font-bold text-purple-400">Data Science Intern at Zomato</span> -
+            Developed a data-driven routing system to automate slot assignments using OR-Tools based fleet optimization pipeline
+          </p>
+          <div className="flex space-x-3 mb-3">
+            <Image
+              src={`${samImg4.src}`}
+              alt="Computer vision project"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover object-top h-16 md:h-28 w-[800px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+            />
+            <Image
+              src={`${samImg3.src}`}
+              alt="ML model architecture"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover object-top h-16 md:h-28 w-[120px] md:w-[200px] shadow-[0_0_12px_rgba(34,_42,_53,_0.06)]"
+            />
+          </div>
+          <div className="mt-2">
+            <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
+              -Built an ensemble learning model to forecast frozen product demand, improving inventory management for frozen team.
+            </div>
+            <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
+              - Integrated the forecasting model with the replenishment system to automatically adjust inventory based on demands
+            </div>
+            <div className="flex gap-2 items-center text-neutral-400 dark:text-neutral-400 text-xs md:text-sm">
+              - Tech stack: Python, Redash, OR-Tool, GoLang, Api Integration
+            </div>
+          </div>
+        </div>
+      ),
+    },
     {
       title: "Dec 2024 - Feb 2025",
       content: (
